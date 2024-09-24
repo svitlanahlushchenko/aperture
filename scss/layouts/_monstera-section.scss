@@ -1,0 +1,16 @@
+.monstera-section {
+  &__container {
+    display: flex;
+    justify-content: flex-end;
+    background-image: url('../../image/monstera-background.jpg');
+    background-repeat: no-repeat;
+    background-position: center top;
+  }
+  &__info {
+    max-width: 275px;
+    padding: 260px 87px 260px;
+  }
+  &__title {
+    text-transform: uppercase;
+  }
+}

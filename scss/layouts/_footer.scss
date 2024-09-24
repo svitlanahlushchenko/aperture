@@ -1,0 +1,72 @@
+.footer {
+  padding: 100px 136px;
+  margin: 0 auto;
+  &__logo {
+    padding-bottom: 20px;
+  }
+
+  &__menu {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+  }
+  &__menu-part {
+    display: flex;
+    gap: 40px;
+    padding-right: 100px;
+  }
+  &__title {
+    text-transform: uppercase;
+    padding-bottom: 10px;
+  }
+  &__link {
+    padding-bottom: 10px;
+    &:hover {
+      color: var(--color-primary-light);
+    }
+  }
+
+  &__subscribe {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 2px solid var(--color-primary-middle);
+  }
+  &__subscribe-text {
+    padding: 36px 0px;
+  }
+  &__subscribe-button {
+    display: flex;
+    align-items: center;
+    color: var(--color-primary-dark);
+    background-color: var(--color-primary-light);
+    cursor: pointer;
+    border-radius: 12px;
+    padding: 16px 0px 16px 8px;
+    gap: 20px;
+
+    &:hover {
+      color: var(--color-primary-light);
+      background-color: var(--color-primary-dark);
+    }
+  }
+  &__subscribe-button::after {
+    content: '';
+    width: 63px;
+    height: 30px;
+    background-color: var(--color-primary-dark);
+    border-radius: 8px;
+    margin-right: 4px;
+  }
+  &__rights {
+    border-top: 2px solid var(--color-primary-middle);
+    padding: 56px 0px 104px;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+  }
+  &__socials {
+    display: flex;
+    gap: 20px;
+  }
+}

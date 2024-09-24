@@ -1,0 +1,24 @@
+.hero-section {
+  &__container {
+    padding: 460px 0px 70px;
+    background-image: url(../../image/hero-photo.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+  &__text {
+    text-align: center;
+    max-width: 600px;
+  }
+  &__title {
+    font-size: 54px;
+    color: var(--color-primary-light);
+    line-height: 1.1;
+    padding-bottom: 18px;
+  }
+  &__uppercase-text {
+    text-transform: uppercase;
+  }
+}

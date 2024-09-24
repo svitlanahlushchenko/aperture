@@ -1,0 +1,37 @@
+.categories-section {
+  text-align: center;
+  padding-bottom: 100px;
+  &__title {
+    font-size: 42px;
+    line-height: 1.1;
+    padding-bottom: 15px;
+    color: var(--color-primary-light);
+  }
+  &__cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 16px;
+    max-width: 1168px;
+    margin: 0 auto;
+  }
+  &__card {
+    position: relative;
+  }
+  &__card-photo {
+    display: block;
+  }
+  &__card-info {
+    text-align: left;
+    position: absolute;
+    max-width: 500px;
+    bottom: 30px;
+    left: 30px;
+  }
+  &__card-text {
+    padding: 10px 0px;
+  }
+  &__card-title {
+    text-transform: uppercase;
+  }
+}

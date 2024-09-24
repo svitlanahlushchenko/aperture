@@ -1,0 +1,16 @@
+.japan-section {
+  &__container {
+    display: flex;
+    justify-content: flex-end;
+    background-image: url('../../image/japan-background.jpg');
+    background-repeat: no-repeat;
+    background-position: center top;
+  }
+  &__info {
+    max-width: 300px;
+    padding: 260px 62px 250px;
+  }
+  &__title {
+    text-transform: uppercase;
+  }
+}

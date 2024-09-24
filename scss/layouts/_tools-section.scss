@@ -1,0 +1,22 @@
+.tools-section {
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__info {
+    padding-left: 40px;
+  }
+  &_uppercase-text {
+    text-transform: uppercase;
+    padding-bottom: 6px;
+  }
+  &__title {
+    font-size: 28px;
+    padding-bottom: 14px;
+  }
+  &__text {
+    max-width: 514px;
+    padding-bottom: 20px;
+  }
+}

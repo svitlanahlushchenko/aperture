@@ -1,0 +1,23 @@
+.header {
+  &__container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 16px;
+    padding: 30px 0px;
+  }
+  &__menu {
+    display: flex;
+    gap: 32px;
+  }
+  &__link {
+    padding: 13px 20px;
+    font-size: 15px;
+    border-radius: 14px;
+
+    &:hover {
+      background-color: var(--color-primary-light);
+      color: var(--color-primary-dark);
+    }
+  }
+}

@@ -1,0 +1,12 @@
+.characteristics {
+  position: absolute;
+  display: flex;
+  gap: 16px;
+  bottom: 40px;
+  right: 40px;
+
+  &__item {
+    display: flex;
+    gap: 5px;
+  }
+}
