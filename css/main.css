@@ -273,7 +273,7 @@
 
 .hero-section__container {
   padding: 460px 0px 70px;
-  background-image: url(../../image/hero-photo.jpg);
+  background-image: url("/image/hero-photo.jpg");
   background-repeat: no-repeat;
   background-position: center top;
   display: -webkit-box;
