@@ -305,7 +305,7 @@
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  background-image: url("/image/japan-background.jpg");
+  background-image: url("../image/japan-background.jpg");
   background-repeat: no-repeat;
   background-position: center top;
 }
@@ -324,7 +324,7 @@
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  background-image: url("/image/monstera-background.jpg");
+  background-image: url("../image/monstera-background.jpg");
   background-repeat: no-repeat;
   background-position: center top;
 }
@@ -343,7 +343,7 @@
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  background-image: url("/image/nepal-background.jpg");
+  background-image: url("../image/nepal-background.jpg");
   background-repeat: no-repeat;
   background-position: center top;
 }
